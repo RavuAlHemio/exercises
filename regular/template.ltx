@@ -2,7 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 \usepackage{a4wide}
-\usepackage{url}
+\usepackage[hidelinks]{hyperref}
 \usepackage{lmodern}
 \usepackage{nameref}
 \pagestyle{empty}
@@ -17,19 +17,20 @@ OPERATING SYSTEMS BEISPIEL #1
 \end{center}
 }
 
+\newcommand\osueguidelineslink{\href{http://ti.tuwien.ac.at/cps/teaching/courses/osue/richtlinien\#richtlinien}{\textit{Richtlinien
+für die Erstellung von C-Programmen}} }
+
 \newcommand\osueguidelinesone{
 \section*{Richtlinien}
 
-Bitte beachten Sie auch die \textit{Richtlinien für die Erstellung von
-C-Programmen} auf der Übungswebsite.
+Bitte beachten Sie auch die \osueguidelineslink auf der Übungswebsite.
 }
 
 \newcommand\osueguidelinestwo{
 \section*{Richtlinien}
 
-Bitte beachten Sie auch die \textit{Richtlinien für die Erstellung von
-C-Programmen} sowie die \textit{Allgemeinen Hinweise zur Beispielgruppe 2} auf
-der Übungswebsite.
+Bitte beachten Sie auch die \osueguidelineslink sowie die \href{http://ti.tuwien.ac.at/cps/teaching/courses/osue/richtlinien}{\textit{Allgemeinen
+Hinweise zur Beispielgruppe 2}} auf der Übungswebsite.
 
 Insbesondere ist es ab dieser Beispielgruppe notwendig, die Dokumentation in
 Doxygen zu führen. Es muss zumindest das HTML-Output generierbar sein. Bitte
@@ -46,7 +47,6 @@ Variablen dokumentieren.
 \newcommand\osueguidelinesthree{
 \section*{Richtlinien}
 
-Bitte beachten Sie auch die \textit{Richtlinien für die Erstellung von
-C-Programmen} sowie die \textit{Allgemeinen Hinweise zur Beispielgruppe 3} auf
-der Übungswebsite.
+Bitte beachten Sie auch die \osueguidelineslink sowie die \href{http://ti.tuwien.ac.at/cps/teaching/courses/osue/richtlinien}{\textit{Allgemeinen
+Hinweise zur Beispielgruppe 3}} auf der Übungswebsite.
 }
